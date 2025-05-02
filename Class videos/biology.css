@@ -1,0 +1,27 @@
+.header{
+    background-color: rgb(22,96,69);
+    color: white;
+    padding: 2%;
+}
+*{
+    font-family:  "IBM Plex Sans", sans-serif;;
+}
+.videos{
+    margin-top:3% ;
+     padding: 1%;
+     margin-left: 1%;
+     margin-right: 1%;
+}
+.video{
+    padding: 1.5%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container-fluid{
+    background-color: rgb(22.75,96);
+}
+.footer{
+    background-color: rgb(22,96,69);
+    /* padding: 1%; */
+    text-align: center;
+    color: white;
+}

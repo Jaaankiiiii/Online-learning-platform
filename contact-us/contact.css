@@ -1,0 +1,138 @@
+a{
+    text-decoration: none;
+    color:black;
+}
+#hyperlink{
+    margin-left:100px;
+    margin-top: 10px;
+}
+#hyper{
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 20px;
+    margin-left: 100px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddd6d6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 10px auto;
+    padding: 30px;
+    background-color: rgba(22,75, 96,0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.social-media {
+    margin-bottom: 30px;
+}
+
+.social-media h2 {
+    margin-bottom: 15px;
+    color: #00020b;
+}
+
+.social-media ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin: 10px 0;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+.contact-form-container {
+    background: #dcd9d9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #eb0a0a;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b30000;
+}
+.class{
+    overflow-wrap: break-word;
+    
+}
+.floating {
+    color: #333;
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Keyframes for floating effect */
+/* @keyframes float {
+    0%, 100% {
+        transform: translateY(0); /* Original position */
+    /* }
+    50% {
+        transform: translateY(-20px); /* Float up */
+    
+.fab{
+    font-size: 27px;
+}

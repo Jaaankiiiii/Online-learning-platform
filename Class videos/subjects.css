@@ -1,0 +1,168 @@
+body {
+    background-color: rgb(22, 75, 96);
+}
+
+* {
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+#background {
+    background-color: rgba(255, 255, 255, 0.207);
+    color: white;
+    padding: 3% 1%;
+    opacity: 1;
+
+
+}
+
+.h1 {
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.subjects {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .subject:hover{
+    font-size: 20px;
+    box-shadow: rgba(255, 255, 255, 1) 0px 3px 8px;
+} */
+#english {
+    background-color: rgb(234, 230, 230);
+    background-image: linear-gradient(rgba(22, 75, 96, 0.7), rgb(234, 230, 230));
+    border-radius: 10px;
+    height: 220px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(11, 1, 1); */
+    box-shadow: 0 20px 20px -20px rgb(6, 3, 73);
+}
+
+#physics {
+    background-color: rgb(234, 230, 230);
+    background-image: linear-gradient(rgba(22, 75, 96, 0.7), rgb(234, 230, 230));
+    border-radius: 10px;
+    height: 220px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(11, 1, 1); */
+    box-shadow: 0 20px 20px -20px rgb(6, 3, 73);
+}
+
+#maths {
+    background-color: rgb(234, 230, 230);
+    background-image: linear-gradient(rgba(22, 75, 96, 0.7), rgb(234, 230, 230));
+    border-radius: 10px;
+    height: 220px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(11, 1, 1); */
+    box-shadow: 0 20px 20px -20px rgb(6, 3, 73);
+}
+
+#chemistry {
+    background-color: rgb(234, 230, 230);
+    background-image: linear-gradient(rgba(22, 75, 96, 0.7), rgb(234, 230, 230));
+    border-radius: 10px;
+    height: 220px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(11, 1, 1); */
+    box-shadow: 0 20px 20px -20px rgb(6, 3, 73);
+}
+
+/* .subject:hover {
+    height: 260px;
+    width: 300px;
+} */
+
+
+.footer {
+    background-color: beige;
+    padding: 20px;
+    margin: 10px 3px;
+
+}
+.page{
+    margin-top: 50px;
+}
+.footer p{
+    font-size: small;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.F {
+    color: rgb(234, 230, 230);
+    width: 20%;
+    text-decoration: underline;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.end {
+    margin: 3%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+
+}
+
+li a:hover {
+    color: darkseagreen
+}
+
+.pulse-box {
+    padding: 15px;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    font-size: large;
+    /* animation: pulse 1.5s infinite; */
+}
+.pulse-box:hover{
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+        /* Increase size by 10% */
+    }
+}
+.copyright{
+    text-align: center;
+    color: white;
+}

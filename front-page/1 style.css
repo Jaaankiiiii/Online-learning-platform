@@ -1,0 +1,536 @@
+body{
+     
+    background-color: rgb(14, 19, 27);
+    font-weight: 900;
+
+}
+header{
+    height: 700px;
+    width:100%;
+    background-image: url(img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    display: block;
+
+
+} 
+.logo{
+    color:rgb(31, 40, 54);
+    width: 70%;
+    padding-left: 15px;
+    padding-top: 5px;
+   
+    
+
+}
+#sign-in{
+    width: 9%;
+    padding: 0;
+}
+.sign{
+    width: 100px;
+} 
+#language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+
+}
+#language button{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button{
+    height: 45px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.85em;
+    background-color: rgb(34,40,49);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px;
+    
+}
+
+
+button a{
+    color:rgb(238, 238, 238);
+    text-decoration: none;
+    font-size: 0.85em;
+    font-weight: 700;
+}
+button:hover{
+    border: 2px solid white;
+}
+
+
+#navigation-bar{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 255, 255, 0.801); 
+    
+
+}
+
+.learn{
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    padding-top:200px;
+
+}
+#heading h1{
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-size:40px;
+}
+
+#heading p{
+    font-size: 25px;
+}
+input{
+    padding: 20px 85px;
+    border-radius: 5px;
+    border:2px solid white;
+    opacity: 0.75;
+    text-align: left;
+}
+/* .start{
+   padding: 15px 35px;
+   padding-bottom:15px;
+} */
+/* .start{
+    padding-top:20px;
+    padding-bottom:20px; */
+  
+.get-started{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    border: none;
+    height:10px;
+    width:100%;
+    height:50px;
+    margin-top:0;
+    border-bottom:1px solid white;
+    box-shadow:0 20px 20px -20px white;
+}
+#more-reasons-to-join p{
+    font-size: 25px;
+    color: rgb(238, 238, 238); 
+    margin-left: 4%;
+    margin-top: 5%;
+
+}
+.box{
+    width:19%;
+    height:220px;
+    background-color: rgb(238, 238, 238); 
+    color: rgb(34,40,49);
+    border-radius: 7px;
+    padding : 8px;
+    box-shadow: rgba(34,40,49, 0.8) 0px -50px 36px -28px inset;
+    transform: translateY(50vh);
+    scale: 0.1;
+    opacity: 0.2;
+    animation: backToPosition 1s forwards;
+    /* forwards- animation stops there ,doesnt repeat wapas  */
+    animation-timeline: view();
+    /* view-animation happens when element visible on screen */
+    animation-range: 0 50vh;
+    /* 0 for x , 50 for y- axis */
+
+
+
+}
+@keyframes backToPosition{
+    100%{
+        transform: translate(0);
+        scale:1;
+        opacity: 1;
+
+    }
+}
+.box p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px;
+
+}
+.box h3{
+    font-family: "Archivo Black",sans-serif;
+    font-size: 17px;
+}
+.reasons{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.frequently-asked-questions h3{
+    color: rgb(238, 238, 238);
+    font-size: 25px;
+    margin-left: 4%;
+    margin-top:5%;
+ 
+
+}
+.q{
+    display: flex;
+    height:90px;
+    margin: 8px;
+    width:94%;
+    padding-left:20px;
+    background-color: rgb(52, 52, 52);
+    color: rgb(238, 238, 238);
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    transform: translateY(50vh);
+    scale: 0.1;
+    opacity: 0.2;
+    animation: backToTop 1s forwards;
+    animation-timeline: view();
+    animation-range: 0 50vh;
+    
+}
+@keyframes backToTop{
+    100%{
+        transform: translate(0);
+        scale:1;
+        opacity: 1;
+    }
+}
+.q p{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 100;
+}
+.q:hover{
+    border: 2px solid white;
+}
+.questions{
+    display: flex;
+    flex-direction:column;
+    display: block;
+    justify-content: space-evenly;
+    margin-left:4%
+   
+    
+}
+.ready-to-learn{
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(238, 238, 238) ;
+    text-align: center;
+    margin-top: 5%;
+}
+.get-started2{
+    display: flex;
+    justify-content: center;
+}
+.enter-email2{
+    padding:15px 200px;
+    opacity: 0.5;
+}
+
+.contact{
+    color:rgb(238, 238, 238) ;
+    margin:3%
+
+}
+.contact a{
+    color: rgb(238, 238, 238) ;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.F{
+    color: rgb(238, 238, 238) ;
+    width: 20%;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 25px;
+}
+li{
+    list-style-type: none;
+}
+.end{
+    margin: 3%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+
+}
+li a:hover{
+    color:darkseagreen
+}
+.end{
+    padding-bottom: 20px;
+}
+@media only screen and (max-width:600px) {
+    #heading h1{
+        font-family: "Archivo Black", sans-serif;
+        font-weight: 400;
+        font-size:30px;
+    }
+    
+    #heading p{
+        font-size: 15px;
+    }
+    #navigation-bar{
+        display: flex;
+        height: 50px;
+        width: 100%;
+        flex-direction: row;
+        align-items: left;
+        justify-content: center;
+        background-color: rgba(240, 255, 255, 0.801); 
+        
+    
+    }
+    #more-reasons-to-join p{
+        font-size: 25px;
+        color: rgb(238, 238, 238); 
+        margin-left: 4%;
+        margin-top: 5%;
+    
+    }
+    .logo{
+        color:rgb(31, 40, 54);
+        width: 80%;
+        padding-left: 15px;
+        padding-top: 5px;
+       
+        
+    
+    }
+    #sign-in{
+        width: 20%;
+    }
+    #language{
+       
+        width: 20%;
+    }
+    .reasons{
+    display: inline-block;
+    }
+    #reason1{
+        width: 90%
+    
+    }
+    .box{
+        width:19%;
+        height:220px;
+        background-color: rgb(238, 238, 238); 
+        color: rgb(34,40,49);
+        border-radius: 7px;
+        padding : 8px;
+        box-shadow: rgba(34,40,49, 0.8) 0px -50px 36px -28px inset;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    #reason2{
+        width: 90%
+    } 
+    #reason3{
+        width: 90%
+    }
+    #reason4{
+        width: 90%
+    }
+    .enter-email2{
+        padding:15px 150px;
+        opacity: 0.5;
+    }
+    .questions{
+        display: flex;
+        flex-direction:column;
+        display: block;
+        justify-content: space-evenly;
+        margin-left:2%
+       
+        
+    }
+    .start1{
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 700px){
+    #navigation-bar{
+        display: flex;
+        height: 50px;
+        width: 100%;
+        flex-direction: row;
+        align-items: left;
+        justify-content: center;
+        background-color: rgba(240, 255, 255, 0.801); 
+        
+    
+    }
+    #more-reasons-to-join p{
+        font-size: 25px;
+        color: rgb(238, 238, 238); 
+        margin-left: 4%;
+        margin-top: 5%;
+    
+    }
+    .logo{
+        color:rgb(31, 40, 54);
+        width: 80%;
+        padding-left: 15px;
+        padding-top: 5px;
+       
+        
+    
+    }
+    #sign-in{
+        width: 30%;
+    }
+    #language{
+       
+        width: 30%;
+    }
+    .reasons{
+    display: inline-block;
+    }
+    #reason1{
+        width: 90%
+    
+    }
+    .box{
+        width:19%;
+        height:220px;
+        background-color: rgb(238, 238, 238); 
+        color: rgb(34,40,49);
+        border-radius: 7px;
+        padding : 8px;
+        box-shadow: rgba(34,40,49, 0.8) 0px -50px 36px -28px inset;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    #reason2{
+        width: 90%
+    } 
+    #reason3{
+        width: 90%
+    }
+    #reason4{
+        width: 90%
+    }
+    .enter-email2{
+        padding:15px 150px;
+        opacity: 0.5;
+    }
+    .questions{
+        display: flex;
+        flex-direction:column;
+        display: block;
+        justify-content: space-evenly;
+        margin-left:2%
+       
+        
+    }
+    .start1{
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+}
+@media only screen and (min-width: 700px) and (max-width: 1110px){
+    #navigation-bar{
+        display: flex;
+        height: 50px;
+        width: 100%;
+        flex-direction: row;
+        align-items: left;
+        justify-content: center;
+        background-color: rgba(240, 255, 255, 0.801); 
+        
+    
+    }
+    #more-reasons-to-join p{
+        font-size: 25px;
+        color: rgb(238, 238, 238); 
+        margin-left: 4%;
+        margin-top: 5%;
+    
+    }
+    .logo{
+        color:rgb(31, 40, 54);
+        width: 80%;
+        padding-left: 15px;
+        padding-top: 5px;
+       
+        
+    
+    }
+    #sign-in{
+        width: 30%;
+    }
+    #language{
+       
+        width: 30%;
+    }
+    .reasons{
+    display: inline-block;
+    }
+    #reason1{
+        width: 90%
+    
+    }
+    .box{
+        width:19%;
+        height:220px;
+        background-color: rgb(238, 238, 238); 
+        color: rgb(34,40,49);
+        border-radius: 7px;
+        padding : 8px;
+        box-shadow: rgba(34,40,49, 0.8) 0px -50px 36px -28px inset;
+        margin-left: 15px;
+        margin-bottom: 10px;
+    }
+    #reason2{
+        width: 90%
+    } 
+    #reason3{
+        width: 90%
+    }
+    #reason4{
+        width: 90%
+    }
+    .enter-email2{
+        padding:15px 150px;
+        opacity: 0.5;
+    }
+    .questions{
+        display: flex;
+        flex-direction:column;
+        display: block;
+        justify-content: space-evenly;
+        margin-left:2%
+       
+        
+    }
+    .start1{
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+}
+
+
+
+

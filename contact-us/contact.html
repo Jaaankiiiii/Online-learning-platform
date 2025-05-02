@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+</head>
+<body>
+    <div class="navigation-bar" style="display: flex; background-color: rgba(22,75,96,0.8);">
+        <div class="logo" style="margin-right: 1075px;margin-top: 10px;">
+            <img src="image.png" alt="ace the exam" height="35px"> 
+        </div>
+        <div class="nav">
+            <button style="margin-right: 20px;margin-top: 10px;background-color: rgb(255, 255, 255);margin-bottom: 10px;"><i class="fa-solid fa-house" style="color: black;"></i> <a href="C:\Users\Lenovo\fee project\front-page\1 frontpage.html">Home</a></button>
+            <button class="profile" style="margin-top: 10px;background-color:rgb(255, 255, 255);margin-bottom: 10px;">
+                <i class="fa-solid fa-user" style="color: black;"></i> <a href="C:\Users\Lenovo\fee project\profile page\profile.html">Profile</a>
+            </button>
+        </div>
+    </div>
+<h1 style="text-align: center;margin: 30px;font-size: 50px;font-weight: bold; font-family: juan montereano;">CONTACT ACE THE EXAM</h1>
+<div class="container">
+    <div id="main" style="display: flex;">
+    <div class="social-media" style="margin-right: 150px;margin-left: 150px;margin-top: 100px;">
+    <div class="floating"><h2 style="font-size: 30px;">Address</h2>
+    <ul style="color: #000000 ;">
+        <li style="font-weight: bold;"><i class="fas fa-home"></i>&nbsp;Rajpura, Punjab</li>
+        <li style="font-weight: bold;"><i class="fas fa-home"></i>&nbsp;India</li>
+        <li style="font-weight: bold;"><i class="fas fa-phone"></i>&nbsp;(803)500-1475</li>
+        <li style="font-weight: bold;"><i class="fas fa-envelope"></i>&nbsp;acetheexam1@gmail.com</li>
+    </ul><br></div>
+        <ul style="display: flex;">
+            <li style="margin-right: 14px;"><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li style="margin-right: 14px;"><a href="#" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li style="margin-right: 14px;"><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+            <li style="margin-right: 14px;"><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+    
+    <div><header>
+    <h1 style="font-weight: bold; margin-bottom: 10px; font-size: 30px;">Contact Us</h1>
+    <p style="color: rgb(255, 255, 255); margin-top: 0px;">We cant solve your problem if you dont tell us about it!</p>
+    </header>  
+    <div class="contact-form-container"  style="width: 90%;">
+        <!-- <form action="#" method="post" class="contact-form"> -->
+            <div style="display: flex;">
+            <div class="form-group" style="padding-right: 20px;margin-right: 100px;width: 65%;">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group"style="padding-right: 20px;width: 65%;">
+                <form id="email-address" onsubmit="return ValidateEmail()">
+                    <label for="email">Email</label>
+                    <input id="email" type="text" name="email" class="enter-email" required>
+                    </button>
+                </form></div></div>
+            <div class="form-group"style="padding-right: 20px;">
+                <label for="phone">Phone Number</label>
+                <input type="number" id="phone" name="phone" required>
+            </div>
+            <div class="form-group"style="padding-right: 20px;">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="2" required></textarea>
+            </div> <br>
+            <button type="submit" onclick="validateform()">Send Message</button>
+        <!-- </form> --></div>
+    </div>
+    </div>
+</div>
+</header>
+<script>
+    function ValidateEmail() {
+        var email = document.getElementById("email").value;
+        var gmailPattern = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+
+        if (!gmailPattern.test(email)) {
+            alert("Please enter a valid Gmail address.");
+            return false;
+        }
+        window.location.href = "file:///C:/Users/Lenovo/fee%20project/3%20student%20home%20page/3%20home-page.html";
+        return false;
+    }
+</script>
+<script>
+    function validateform()
+    {
+        const a = document.getElementById("name").value.trim();
+        const b = document.getElementById("email").value.trim();
+        const c = document.getElementById("phone").value.trim();
+        const d = document.getElementById("message").value.trim();
+        if( !a || !b || !c || !d)
+        {
+        alert("all fields are mandatory.please fill all fields");
+        }
+        else{
+            alert("your message has been sent!")
+        }  
+    }
+    </script>
+    <script src="https://kit.fontawesome.com/0ed85649cd.js" crossorigin="anonymous"></script>
+</body>
+</html>

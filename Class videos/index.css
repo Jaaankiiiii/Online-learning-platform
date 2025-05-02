@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin:0;
+}
+.heading{
+    background-color: rgb(22,96,69);
+    padding: 4%;
+    margin-bottom: 2%;
+    color: white;
+}
+.unit{
+    background-color: rgb(234, 230, 230);
+    margin-bottom: 10px;
+    padding: 5%;
+}
+.unit:hover{
+    background-color: rgba(22, 96, 69, 0.2);
+}
+
+
+.head{
+    background-color: rgb(22, 96, 69);
+}
+.footer{
+    background-color: rgb(22,96,69);
+    /* padding: 1%; */
+    text-align: center;
+    color: white;
+    width: 100%;
+}

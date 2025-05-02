@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+    <link rel="stylesheet" href="2 style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <!-- <div class="modal ">
+            <button class="close-modal"><i class="fa-solid fa-xmark"></i></button>
+                <h1>Ace the Exam</h1>
+                <p class="welcome">Your account has been created</p>
+                <button  class="submit">Okay</button>
+            </div>
+        </div> -->
+        <!-- <div class="overlay"></div> -->
+        <div class="sign-in-box">
+            <h1>Sign In</h1>
+            <div class="email">
+                <form id="email" onsubmit="return ValidateEmail()">
+                    <label for="email"></label>
+                    <input id="email" type="text" name="email" class="box" placeholder="Email address"
+                        required>
+                </form>
+            </div>
+            
+            <div class="password">
+                <label for="password"></label>
+                <input id="password" class="box" type="Password" placeholder="password" name="sign--in">
+            </div>
+                <!-- <div id="error-message" class="error">Password must contain atleast one uppercase letter, one lower case letter, one number and one special character</div> -->
+            
+
+            <div class="name">
+                <label for="name"></label>
+                <input id="name" class="box" placeholder="Name" name="sign--in">
+            </div>
+
+            <div class="student-teacher">
+                <p> Role-</p>
+                <input type="radio" id="Student" name="student-teacher"
+                    value="C:\Users\Lenovo\fee project\3 student home page\3 home-page.html">
+                <label for="Student">Student</label>
+                <input type="radio" id="Teacher" name="student-teacher"
+                    value="C:\Users\Lenovo\fee project\4 teacher application form\5 teacher-form.html">
+                <label for="Teacher">Teacher</label>
+
+
+            </div>
+
+            <div class="Class">
+                <p>Select Your Class -
+                <p>
+                    <input type="radio" id="class8" name="class" value="8th">
+                    <label for="class8">8th</label>
+                    <input type="radio" id="class9" name="class" value="9th">
+                    <label for="class9">9th</label>
+                    <input type="radio" id="class10" name="class" value="10th">
+                    <label for="class10">10th</label>
+                    <input type="radio" id="class11" name="class" value="11th">
+                    <label for="class11">11th</label><br>
+                    <input type="radio" id="class12" name="class" value="12th">
+                    <label for="class12">12th</label><br><br><br>
+
+            </div>
+
+            <div class="submit">
+                <button class="button" onclick="navigateToPage()"><a
+                        href="C:\Users\Lenovo\fee project\3 student home page\3 home-page.html">Sign In</a></button>
+                <!-- <button class="button"><a href="/4 teacher application form/5 teacher-form.html">Teacher Sign
+                        In</a></button> -->
+                <p>new to Ace The Exam? <a href="C:\Users\Lenovo\fee project\front-page\1 frontpage.html">Sign up
+                        now...</a></p>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="contact">
+            <p>Questions? Call <a href="004-562-930-289"> 004-562-930-289</a></p>
+        </div>
+        <div class="footer">
+            <div class="F">
+                <ul>
+                    <li><a>FAQ</a></li>
+                    <li><a>Investor relations</a></li>
+                    <li><a>Privacy</a></li>
+            </div>
+            <div class="F">
+                <ul>
+                    <li><a>Help centre</a></li>
+                    <li><a>Jobs</a></li>
+                    <li><a>Cookie Preference</a></li>
+                    <li><a>Legal Notices </a></li>
+                </ul>
+            </div>
+
+            <div class="F">
+                <ul>
+                    <li><a>Account</a></li>
+                    <li><a>Ways to Learn</a></li>
+                    <li><a>Corporate Information</a></li>
+                    <li><a>Only on Ace the exam </a></li>
+                </ul>
+            </div>
+
+            <div class="F">
+                <ul>
+                    <li><a>Media centre</a></li>
+                    <li><a>Terms of Use</a></li>
+                    <li><a>Technical Issues</a></li>
+                    <li><a>Contact us </a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="end">
+            <p>Ace the Exam !</p>
+        </div>
+    </footer>
+    <li><a>Speed test</a></li>
+
+    </ul>
+    <script>
+        function navigateToPage() {
+            alert("form submitted successfully!!")
+            const selectedValue = document.querySelector('input[name="student-teacher"]:checked').value;
+            if (selectedValue) {
+                window.location.href = selectedValue;
+            }
+        }
+        </script>
+        <script>
+        function validatePassword() {
+            const password = document.getElementById('password').value;
+            const errorMessage = document.getElementById('error-message');
+
+            // Regular expression for password validation
+            const passwordPattern = /^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[!@#$%^&])[A-Za-z\d!@#$%^&]{8,}$/;
+
+            if (!passwordPattern.test(password)) {
+                errorMessage.style.display = 'block'; // Show error message
+                return false; // Prevent form submission
+            } else {
+                errorMessage.style.display = 'none'; // Hide error message
+                return true; // Allow form submission
+            }
+        }
+    
+    </script>
+    <script>
+        function ValidateEmail() {
+            var email = document.getElementById("email").value;
+            var gmailPattern = /^[a-zA-Z0-9._%+-]+@gmail\.com$/;
+    
+            if (!gmailPattern.test(email)) {
+                alert("Please enter a valid Gmail address.");
+                return false;
+            }
+            window.location.href = "file:///C:/Users/Lenovo/fee%20project/3%20student%20home%20page/3%20home-page.html";
+            return false;
+        }
+    </script>
+    <script>
+        const input=document.getElementsByClassName('.box').value;
+        if(input==''){
+            alert('Please enter all the fields')
+        }
+    </script>
+
+
+</body>
+
+</html>
