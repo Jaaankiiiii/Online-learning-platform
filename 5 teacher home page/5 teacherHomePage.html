@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher's home page</title>
+    <link rel="stylesheet" href="5 style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row navbar w-100 navbar-expand-lg">
+            <div class="col-lg-10 col-md-1 col-sm-8">
+                <img src="image.png" height="30px" alt="ace the exam">
+            </div>
+            <!-- <div class=" col text-end profile">
+                <i class="fa-solid fa-user"></i>
+            </div> -->
+            <div class="col-lg-2 col-md-2 col-sg-4 btn-group">
+                <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">Hello ! <span>User </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-bars"></i>
+                    
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/profile page/profile.html"><i class="fa-regular fa-user"></i> My Profile</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-chalkboard"></i> Courses</a></li>
+                    <li><a class="dropdown-item" > <i class="fa-solid fa-download"></i>Downloads</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="/contact-us/contact.html"><i class="fa-solid fa-phone"></i> Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class=" container-fluid hero-section">
+            <div class="banner">
+                <img class="banner-img" src="AdobeStock_854522873_Preview.jpeg" width=100% height="500px">
+                <div class="centered">
+                    <h1 class="floating"><b>"Empowering Educators, Inspiring Students"</b></h1><br>
+                    <a href="https://www.zoom.us/signin#/login">
+                        <!-- <button>Take class -></button> -->
+                        <button type="button" class="btn btn-light">Take class <i class="fa-solid fa-chalkboard-user"></i></button>
+                    </a>
+                </div>
+            </div>
+        </div><br>
+        <div class="container features">
+            <div class="row">
+                <div class="col">
+                    <a href="https://www.zoom.us/signin#/login">
+                        <div class="feature 1">
+                            <img src="vecteezy_live-chat-icon-design_28900499.png" height=50px>
+                            <h2>Live Class</h2>
+                            <p> Take live classes</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://drive.google.com/drive/quota">
+                        <div class="feature 2">
+                            <img src="Screenshot_20241101_173019_Chrome.png" height="50px" alt="notes">
+                            <h2>Notes</h2>
+                            <p>Provide notes</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="https://admin.sli.do/events">
+                        <div class="feature 3">
+                            <img src="vecteezy_white-clipboard-task-management-todo-check-list-efficient_9315274.png"
+                                height="50px" alt="test">
+                            <h2>Test</h2>
+                            <p>Take test/Poll</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <div class="feature 4">
+                        <img src="vecteezy_illustration-3d-light-bulb-and-speech-concept-talk-exchange_23354732.png"
+                            height="50px" alt="doubt">
+                        <h2>Doubts</h2>
+                        <p>Clear doubts</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container moreFeatures">
+            <div class="row ">
+                <h1 class="abcd"><b>SOME MORE FEATURES</b></h1>
+            </div>
+            <div class="row">
+                <div class="col A">
+                    <div class="moreFeature">
+                        <h2>Courses</h2>
+                        <p>Empower your teaching and inspire your students with our robust course creation features!
+                            Build and sell your own courses</p>
+                        <img class="image" src="61_Elearning_Flat5.jpg" height="200px" alt="Course">
+                    </div>
+                </div>
+                <div class="col B">
+                    <a href="https://www.zoom.us/signin#/login">
+                        <div class="moreFeature">
+                            <h2>Webinar</h2>
+                            <p>Unlock the full potential of your teaching with engaging webinars that connect you
+                                directly with your students!</p>
+                            <img class="image" src="Video_Conference_01_generated.jpg" height="200px" alt="webinar">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div><br>
+        <div class="container-fluid footer">
+            <div class="row">
+                <p> Copyright © 2024 Ace the Exam ,All rights reserved.</p>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/0ed85649cd.js" crossorigin="anonymous"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        window.onclick = function (e) {
+            if (!e.target.matches('.dropbtn')) {
+                var myDropdown = document.getElementById("myDropdown");
+                if (myDropdown.classList.contains('show')) {
+                    myDropdown.classList.remove('show');
+                }
+            }
+        }
+    </script>
+</body>
+</html>

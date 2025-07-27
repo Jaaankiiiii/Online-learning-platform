@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Application Form</title>
+    <link rel="stylesheet" src="4 style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pyw4gzx.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pyw4gzx.css">
+    <style>
+        *{
+    font-family: "darkmode-on", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+body{
+    background-image: url(form-image.jpeg);
+    background-size: cover;
+    
+    
+    
+}
+body .heading , form{
+    font-family: "darkmode-on", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.heading{
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: 900;
+    text-decoration: solid white underline;
+    display: flex;
+    justify-content: center;
+}
+/* }
+.taf{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+input{
+    margin-right:0%;
+} */
+form { 
+    display: table;
+    width:94%;
+    padding-left: 3%;
+    padding-right: 3%;
+    
+    
+
+}
+.taf{ 
+    display: table-row;
+    margin-right: 5%;
+    margin-left: 5% ;
+
+}
+table{
+    font-family: "darkmode-on", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+label{
+    font-size: bold;
+    font-weight: 600;
+    display: table-cell;
+}
+input{ 
+    margin-top:0.35%;
+    margin-bottom: 0.35%;
+    display: table-cell;
+    width:90%;
+    height: 22px;
+    border: 1px solid black;
+}
+#academic-info{
+    margin-top: 2px;
+    width: 90%;
+    border-collapse:collapse ;
+    border: 1px solid black;
+}
+
+.professional-info{
+    width: 90%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.work-experience{
+    width: 90%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 20%;
+}
+td input{
+    width:97%;
+    border: 0;
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+button {
+    background-color: rgb(163, 16, 16);
+    color: white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    
+
+}
+.button{
+    padding-left:80% ;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h3>
+                TEACHER APPLICATION FORM
+            </h3>
+        </div>
+        <form>
+            
+            <div class="taf">
+                <label for="name">1. NAME</label>
+                <input type="text" name="details" id="name" required><br>
+            </div>
+            <div class="taf">
+                <label for="fath/hus-number">2. FATHER'S/HUSBAND'S NUMBER</label>
+                <input type="text" name="details" id="fath/hus-number" ><br>
+            </div>
+            <div class="taf">
+                <label for="address">3. ADDRESS</label>
+                <input type="text" name="details" id="address" ><br>
+            </div>
+            <div class="taf">
+                <label for="contact">4. CONTACT NO.</label>
+                <input type="tel" name="details" id="contact" ><br>
+            </div>
+            <div class="taf">
+                <label for="dob">5. DATE OF BIRTH</label>
+                <input type="date" name="details" id="dob" ><br>
+            </div>
+            <div class="taf">
+                <label for="email">6. E-MAIL ID</label>
+                <input type="email" id="email" name="details" ><br>
+            </div>
+            <div class="taf">
+                <label for="academic-info">7. ACADEMIC-INFORMATION</label>
+                <table id="academic-info">
+                    <thead>
+                        <th>Qualification</th>
+                        <th><label for= "yop">Year of Passing</label></th>
+                        <th><label for="scu" >School/College/Uni.(Name)State</label></th>
+                        <th><label for="%age">%age</label></th>
+                        <th><label for="file">Attach File</label></th>
+                    </thead>
+                    <tr>
+                        <td>Secondary</td>
+                        <td><input type="text" id="yop" ></td>
+                        <td><input type="text" id=scu ></td>
+                        <td><input type="tel" id="%age" ></td>
+                        <td><input type="file" placeholder="Choose File" id="file" ></td>
+                    </tr>
+                    <tr>
+                        <td>Sr. Secondary</td>
+                        <td><input type="text" id="yop" ></td>
+                        <td><input type="text" id=scu ></td>
+                        <td><input type="tel" id="%age" ></td>
+                        <td><input type="file" placeholder="Choose File" id="file" ></td>
+                    </tr>
+                    <tr>
+                        <td>Graduation</td>
+                        <td><input type="text" id="yop" ></td>
+                        <td><input type="text" id=scu ></td>
+                        <td><input type="tel" id="%age" ></td>
+                        <td><input type="file" placeholder="Choose File" id="file" ></td>
+                    </tr>
+                    <tr>
+                        <td>Post Graduation</td>
+                        <td><input type="text" id="yop"></td>
+                        <td><input type="text" id=scu ></td>
+                        <td><input type="tel" id="%age"></td>
+                        <td><input type="file" placeholder="Choose File" id="file"></td>
+                    </tr>
+                    <tr>
+                        <td>Any Other</td>
+                        <td><input type="text" id="yop"></td>
+                        <td><input type="text" id=scu ></td>
+                        <td><input type="tel" id="%age"></td>
+                        <td><input type="file" placeholder="Choose File" id="file"></td>
+                    </tr>
+                </table><br>
+            </div>
+            <div class="taf">
+                <label for="professional-info">8. PROFESSIONAL-INFORMATION</label>
+                <table class="professional-info">
+                    <thead>
+                        <th>Qualification</th>
+                        <th><label for= "yop">Year of Passing</label></th>
+                        <th><label for="scu" >School/College/Uni.(Name)State</label></th>
+                        <th><label for="%age">%age</label></th>
+                        <th><label for="file">Attach File</label></th>
+                    </thead>
+                    <tr>
+                        <td>N.T.T</td>
+                        <td><input type="text" id="yop"></td>
+                        <td><input type="text" id=scu ></td>
+                        <td><input type="tel" id="%age"></td>
+                        <td><input type="file" placeholder="Choose File" id="file"></td>
+                    </tr>
+                    <tr>
+                        <td>B.Ed</td>
+                        <td><input type="text" id="yop"></td>
+                        <td><input type="text" id=scu ></td>
+                        <td><input type="tel" id="%age"></td>
+                        <td><input type="file" placeholder="Choose File" id="file"></td>
+                    </tr>
+                    <tr>
+                        <td>M.Ed</td>
+                        <td><input type="text" id="yop"></td>
+                        <td><input type="text" id=scu ></td>
+                        <td><input type="tel" id="%age"></td>
+                        <td><input type="file" placeholder="Choose File" id="file"></td>
+                    </tr>
+                    <tr>
+                        <td>Any Other</td>
+                        <td><input type="text" id="yop"></td>
+                        <td><input type="text" id=scu ></td>
+                        <td><input type="tel" id="%age"></td>
+                        <td><input type="file" placeholder="Choose File" id="file"></td>
+                    </tr>
+                </table>
+            </div><br>
+            <div class="taf">
+                <label for="work-experience">9. DETAILS OF WORK EXPERIENCE</label>
+                <table class="work-experience">
+                    <thead>
+                        <th><label for= "nosi">Name of School/Institution</label></th>
+                        <th><label for="das" >Designation & Assignments</label></th>
+                        <th><label for=from>From-To</label></th>
+                        <th><label for="sct">Subject/Classes Taught</label></th>
+                        <th><label for="file">Attach File</label></th>
+                    </thead>
+                    <tr>
+                        <td><input type="text" id="nosi"></td>
+                        <td><input type="text" id=das ></td>
+                        <td><input type="tel" id="from"></td>
+                        <td><input type="text" id="sct"></td>
+                        <td><input type="file" placeholder="Choose File" id="file"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="nosi"></td>
+                        <td><input type="text" id="das" ></td>
+                        <td><input type="tel" id="from"></td>
+                        <td><input type="text" id="sct"></td>
+                        <td><input type="file" placeholder="Choose File" id="file"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="nosi"></td>
+                        <td><input type="text" id="das" ></td>
+                        <td><input type="tel" id="from"></td>
+                        <td><input type="text" id="sct"></td>
+                        <td><input type="file" placeholder="Choose File" id="file"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="nosi"></td>
+                        <td><input type="text" id=das></td>
+                        <td><input type="tel" id="from"></td>
+                        <td><input type="text" id="sct"></td>
+                        <td><input type="file" placeholder="Choose File" id="file"></td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <button type="submit" class=""><a href="../5 teacher home page/5 teacherHomePage.html" class="d-block m-auto">SUBMIT</a></button>
+            
+                
+            
+        </form>
+       
+            
+        
+    </div>
+</body>
+</html>
