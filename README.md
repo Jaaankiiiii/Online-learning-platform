@@ -13,7 +13,8 @@ With flexible, self-paced learning and access from anywhere, it's never been eas
 <p align="center">
   <img src="./demo/Teacher Application Form - Brave 2025-07-28 00-05-15.gif" width="700" alt="App Demo GIF"/>
 </p>
-## ✨Features
+
+## ✨ Features
 
 - ✅ Free educational content for Classes 8 to 12  
 - 🧑‍🏫 Designed for both Students and Teachers  
