@@ -4,15 +4,16 @@ Unlock your potential with **ACE THE EXAM**!
 This free online learning platform provides a wealth of resources from renowned professors and teachers, tailored for students and teachers of classes 8th to 12th.  
 With flexible, self-paced learning and access from anywhere, it's never been easier to build your own study routine and boost your knowledge.
 
-
+## for students
 <p align="center">
   <img src="./demo/FEE project - Brave 2025-07-27 22-58-10.gif" width="700" alt="App Demo GIF"/>
 </p>
 
+## for teachers
 <p align="center">
   <img src="./demo/Teacher Application Form - Brave 2025-07-28 00-05-15.gif" width="700" alt="App Demo GIF"/>
 </p>
-## ✨ Features
+## ✨Features
 
 - ✅ Free educational content for Classes 8 to 12  
 - 🧑‍🏫 Designed for both Students and Teachers  
